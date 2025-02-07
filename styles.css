@@ -130,55 +130,25 @@
   /* Color dorado al pasar el ratón */
 }
 
-.navbar-toggler {
-  border: none;
-  /* Quita el borde del botón */
-  font-size: 40px;
-  /* Aumenta el tamaño del ícono */
-  padding: 15px 25px;
-  /* Aumenta el espacio interno del botón (lo hace más grande) */
+
+.whatsapp-button {
+  position: fixed; /* Hace que el botón se quede fijo */
+  bottom: 20px; /* Distancia desde el fondo de la página */
+  right: 20px; /* Distancia desde el lado derecho de la página */
+  z-index: 999; /* Asegura que el botón esté encima de otros elementos */
+  background-color: transparent; /* Sin fondo */
+  border: none; /* Sin borde */
+  padding: 10px;
 }
 
-
-
-@keyframes colorChange {
-  0% {
-    border-color: white;
-    color: white;
-  }
-
-  50% {
-    border-color: gray;
-    color: gray;
-  }
-
-  100% {
-    border-color: black;
-    color: black;
-  }
+.whatsapp-icon {
+  color: #25D366; /* Color verde de WhatsApp */
+  transition: transform 0.3s ease; /* Efecto de transición */
 }
 
-
-/* Aplicar la animación al ícono */
-.iconoNav i {
-  animation: colorChange 5s infinite;
-  /* La animación durará 3 segundos y se repetirá infinitamente */
-  font-size: 30px;
-  /* Ajusta el tamaño del ícono */
+.whatsapp-icon:hover {
+  transform: scale(1.1); /* Agrandar el ícono cuando se pasa el ratón */
 }
-
-.iconoNav i {
-  color: gray;
-  /* Color por defecto */
-  font-size: 60px;
-  /* Tamaño del ícono */
-  transition: all 0.3s ease;
-  /* Transición suave para cambios */
-}
-
-
-
-
 
 
 @media screen and (max-width: 768px) {
@@ -191,7 +161,7 @@
 
   .sectionUno .tituloHome {
     position: absolute;
-    top: 17%;
+    top: 30%;
     /* Centra verticalmente */
     left: 50%;
     /* Centra horizontalmente */
