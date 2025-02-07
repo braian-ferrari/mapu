@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logoMapu{
+    width: 120px;
+    border-radius: 50%;
+}
+.sectionUno{
+  display:flex;
+    
+}
+.imagenHome{
+    width: 95%;
+    height: 70%;
+    align-items: center;
+    margin-left: 2.5%;
+    filter: brightness(50%);
+    margin-top: 10%;
+}
+.sectionUno .tituloHome {
+    position: absolute;
+    top: 70%;  /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste perfecto al centro */
+    color: white; /* Color del texto */
+    font-size: 5em; /* Tamaño del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  .mySwiper {
+    max-width: 90%; /* Limita el ancho total del carrusel */
+    margin: auto; /* Lo centra horizontalmente */
+    padding: 20px 0; /* Espacio arriba y abajo */
+  }
+
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: 200px; /* Ancho uniforme para todas las slides */
+    height: 400px; /* Altura uniforme para todas las slides */
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .swiper-slide h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .swiper-slide img {
+    width: 60%;
+    height: 200px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Evita distorsiones */
+    border-radius: 8px;
+  }
+  
+  .swiper-slide p {
+    font-size: 15px;
+    padding: 0 10px;
+    flex-grow: 1; /* Hace que el texto ocupe todo el espacio restante */
+    display: flex;
+    align-items: center;
+  }
+  .tituloServ{
+    font-size: 50px;
+    margin-left: 39%;
+    margin-bottom: 5%;
+  }
