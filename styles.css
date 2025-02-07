@@ -74,6 +74,70 @@
     margin-left: 39%;
     margin-bottom: 5%;
   }
+  /* Cambiar el fondo y color de la navbar */
+
+/* Cambiar el color del texto en la navbar */
+.colorNav .navbar-brand, .colorNav .navbar-nav .nav-link {
+  color: white; /* Cambia el color de los enlaces y logo a blanco */
+}
+
+/* Cambiar el color de los enlaces al pasar el ratón sobre ellos */
+.colorNav .navbar-nav .nav-link:hover {
+  color: lightblue; /* Color dorado al pasar el ratón */
+}
+
+/* Cambiar el fondo y color de la offcanvas */
+.offcanvas-end {
+  background-color: #333; /* Fondo gris oscuro en el menú lateral */
+  color: white; /* Texto blanco */
+}
+
+/* Cambiar el color de los enlaces en el offcanvas */
+.offcanvas-end .navbar-nav .nav-link {
+  color: white; /* Enlaces en blanco */
+}
+
+/* Cambiar el color de los enlaces al pasar el ratón sobre ellos en el offcanvas */
+.offcanvas-end .navbar-nav .nav-link:hover {
+  color: lightblue; /* Color dorado al pasar el ratón */
+}
+.navbar-toggler {
+  border: none; /* Quita el borde del botón */
+  font-size: 40px; /* Aumenta el tamaño del ícono */
+  padding: 15px 25px; /* Aumenta el espacio interno del botón (lo hace más grande) */
+}
+
+
+
+@keyframes colorChange {
+  0% {
+    color: blue; /* Comienza en azul */
+  }
+  50% {
+    color: violet; /* Cambia a violeta */
+  }
+  100% {
+    color: lightblue; /* Cambia a celeste */
+  }
+}
+
+/* Aplicar la animación al ícono */
+.iconoNav i {
+  animation: colorChange 10s infinite; /* La animación durará 3 segundos y se repetirá infinitamente */
+  font-size: 30px; /* Ajusta el tamaño del ícono */
+}
+
+.iconoNav i {
+  color: gray; /* Color por defecto */
+  font-size: 60px; /* Tamaño del ícono */
+  transition: all 0.3s ease; /* Transición suave para cambios */
+}
+
+
+
+
+
+
   @media screen and (max-width: 768px) {
     /* Estilos para teléfonos celulares */
     
