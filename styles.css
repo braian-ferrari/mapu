@@ -144,7 +144,7 @@
 .whatsapp-icon {
   width: 200px;
   color: #25D366; /* Color verde de WhatsApp */
-  transition: transform 0.3s ease; /* Efecto de transición */
+  transition: transform 0.3s ease; 
 }
 
 .whatsapp-icon:hover {
