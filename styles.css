@@ -111,15 +111,19 @@
 
 @keyframes colorChange {
   0% {
-    color: blue; /* Comienza en azul */
+    border-color: white;
+    color: white;
   }
   50% {
-    color: violet; /* Cambia a violeta */
+    border-color: gray;
+    color: gray;
   }
   100% {
-    color: lightblue; /* Cambia a celeste */
+    border-color: black;
+    color: black;
   }
 }
+
 
 /* Aplicar la animación al ícono */
 .iconoNav i {
@@ -141,8 +145,8 @@
   @media screen and (max-width: 768px) {
     /* Estilos para teléfonos celulares */
     
-    ..logoMapu{
-      width: 100px;
+    .logoMapu{
+      width: 80px;
       border-radius: 50%;
   }
     .sectionUno .tituloHome {
@@ -199,6 +203,12 @@
       display: flex;
       align-items: center;
     }
+    .iconoNav i {
+      color: gray; /* Color por defecto */
+      font-size: 40px; /* Tamaño del ícono */
+      transition: all 0.3s ease; /* Transición suave para cambios */
+    }
+    
    
   }
   @media screen and (max-width: 480px) {
