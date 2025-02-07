@@ -142,6 +142,7 @@
 }
 
 .whatsapp-icon {
+  width: 200px;
   color: #25D366; /* Color verde de WhatsApp */
   transition: transform 0.3s ease; /* Efecto de transición */
 }
@@ -240,7 +241,12 @@
     /* Transición suave para cambios */
   }
 
-
+  .whatsapp-icon {
+    width: 100px;
+    font-size: 1px;
+    color: #25D366; /* Color verde de WhatsApp */
+    transition: transform 0.3s ease; /* Efecto de transición */
+  }
 }
 
 @media screen and (max-width: 480px) {
