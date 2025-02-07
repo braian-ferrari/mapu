@@ -74,3 +74,77 @@
     margin-left: 39%;
     margin-bottom: 5%;
   }
+  @media screen and (max-width: 768px) {
+    /* Estilos para teléfonos celulares */
+    
+    ..logoMapu{
+      width: 100px;
+      border-radius: 50%;
+  }
+    .sectionUno .tituloHome {
+      position: absolute;
+      top: 17%;  /* Centra verticalmente */
+      left: 50%; /* Centra horizontalmente */
+      transform: translate(-50%, -50%); /* Ajuste perfecto al centro */
+      color: white; /* Color del texto */
+      font-size: 2em; /* Tamaño del texto */
+      padding: 10px 20px; /* Espaciado interno */
+      border-radius: 5px; /* Bordes redondeados */
+    }
+    .tituloServ{
+      font-size: 25px;
+      margin-left: 25%;
+      margin-bottom: 5%;
+    }
+    .mySwiper {
+      max-width: 90%; /* Limita el ancho total del carrusel */
+      margin: auto; /* Lo centra horizontalmente */
+      padding: 20px 0; /* Espacio arriba y abajo */
+    }
+  
+    .swiper-slide {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      width: 200px; /* Ancho uniforme para todas las slides */
+      height: 400px; /* Altura uniforme para todas las slides */
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+    .swiper-slide h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    
+    .swiper-slide img {
+      width: 60%;
+      height: 200px; /* Altura fija para las imágenes */
+      object-fit: cover; /* Evita distorsiones */
+      border-radius: 8px;
+    }
+    
+    .swiper-slide p {
+      font-size: 13px;
+      padding: 0 10px;
+      flex-grow: 1; /* Hace que el texto ocupe todo el espacio restante */
+      display: flex;
+      align-items: center;
+    }
+   
+  }
+  @media screen and (max-width: 480px) {
+    /* Estilos para teléfonos pequeños */
+    body {
+      font-size: 12px;
+    }
+  
+    .container {
+      padding: 5px;
+    }
+  }
+  
